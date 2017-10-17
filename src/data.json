@@ -1,0 +1,47 @@
+{
+  "base_url":"http://concutere.com",
+  "cats":["Experiments","Charting","Art"],
+  "data":[
+    {
+      "name":"Bezier synth",
+      "url":"/bez/bzvid.html",
+      "thumb":"/img/bzthumb.png",
+      "desc":"A Bezier-based tone / waveform editor",
+      "detail":"This was by far the most fun prototype I've ever worked on. Though just a little prototype for a single UI/feature, I thought it simplified the connection between visual representation and manipulation of the actual audio data as its processed by fourier transform-backed dsp systems. <p>Ultimately, the role of the FT proved too great to appeal to musisians in this experiment <span style='font-weight:bold'>exploring</span> primitives of visual analysis / <span style='font-weight:bold'>data visualization as <span style='text-decoration-line:line-through'>the future of</span> interactive, data-rich UIs</span>. In the end I found that the only people who really appreciated it were people who had some sort of understanding of what a fourier transform was. In fairness though, my daughter also enjoyed playing with it quite a bit, and I now think it might be better suited to help understanding how the fourier transform relates to tonality than to be a main-usage sort of interface.<p>You can also jump straight to the <a href='/bez/bez.html'>live demo</a>",
+      "cat":"Experiments"
+    },
+    {
+      "name":"Siernade",
+      "url":"/art/sierpinskigrenade.html",
+      "thumb":"/img/sierthumb.png",
+      "desc":"Dancing Sierpinski bubbles in search of closed-eye colorscapes",
+      "detail":"An old favorite, I used to build Sierpinskis as a first step to learning new viz apis. The jolting change of direction never fully satisfied, which led to the random playfulness in Sierstrands. <p> The layering of colors here was intented to emulate the myriad of 'shadow' or 'maybe' colors one sees when holding eyes closed. In this regard, the Siernade here is more closer to what might be 'seen' in darkness, whereas the Sierstrands leave color traces and bleed brighter colors much like when holding eyes shut against a glaring brightness.",
+      "cat":"Art"
+    },
+    {
+      "name":"Sierstrands",
+      "url":"/index.html",
+      "thumb":"/img/sier2thumb.png",
+      "desc":"Sierpinskis spinning apart",
+      "detail":"A sort of inverted Sierpinski (drawing centroid lines rather than triangles) in a random walk around several parameters kept static in the Siernade. There are some impressive moments of colorful crescendo but also some 'wolf interval' moments when things seem to stop flowing together. Performance seems to have degraded over time, may be brutal on your browser ...",
+      "cat":"Art"
+    },
+    {
+      "name":"Uji",
+      "url":"/uji/autochart.html",
+      "thumb":"/img/uji.png",
+      "desc":"How to look at time? Experiments in evolving a narrative through data graphics. A work in progress ...",
+      "detail":"More simply, a collection of ways to display changes over time (projects, stocks, schedules & projections ...)<p>This project used to contain a partial essay (with a tongue-in-cheek byline of 'reading Dogen with charts') attempting to explore ways that statistical analyses & similar methods which become social artifact tend to encourage a human tendency for scale-blindness over time (ie law of large numbers fooling you with short-term 'wins' and over-confidence ... <a href='http://www.nytimes.com/2009/01/04/magazine/04risk-t.html'>thanks, Basel</a>). <p>For more background, try reading <a href='https://mitpress.mit.edu/books/engine-not-camera'>An Engine, not a camera</a> or, for the brave & esoteric at heart, <a href='https://en.wikipedia.org/wiki/D%C5%8Dgen'>Dogen's</a> <a href='http://www.thezensite.com/ZenTeachings/Dogen_Teachings/Uji.htm'>Uji</a>, which is usually translated as <a href='https://www.nozt.org/teachings/eduji.shtml'>Time-Being</a> and has more translations, interpretations and comparisons than would fit here. Uji is also the name of the city where Dogen lived when he wrote the eponymous chapter of his <a href='https://en.wikipedia.org/wiki/Sh%C5%8Db%C5%8Dgenz%C5%8D'>Shobogenzo</a>, a fact which in itself seems like a remarkably layered play on the relationship between embodiment and words (or other symbols / artifacts). <p>This project was just recently restarted using <a href='https://vega.github.io/vega-lite/'>vega-lite</a>, such a great viz tool! Direction and narrative may change a bit, + hopefully some timelines beyond stock charts to better see human experience as embedded in the modern era of digital data collection as the one ring to rule them all ... ",
+      "cat":"Charting"
+    },
+    {
+      "name":"SG.js",
+      "url":"/sg/sg.html",
+      "thumb":"/img/sgthumb.png",
+      "desc":"Dependency-free SVG slopegraph library",
+      "detail":"Edward Tufte recognized this work with kind words (though misattributed as Ben Concutere ... apropos to the mounting overbearance of digital domains?) at <a href='https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0003nk'>https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0003nk</a>.",
+      "cat":"Charting"
+
+    }
+  ]
+}
